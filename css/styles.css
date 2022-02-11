@@ -48,19 +48,6 @@ hr {
   padding-bottom: 5%;
 }
 
-@media only screen and (max-width: 1000px) {
-  .title-row{
-    padding: 15%;
-    }
-    .aboutus{
-      margin-left: 0%;
-      margin-right: 0%;
-    }
-    .container-fluid{
-      padding: 0px;
-    }
-
-}
 
 
 h1{
@@ -81,11 +68,6 @@ h3{
   margin-top: 5%;
 }
 
-#aboutus{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .mainrow{
   margin: 0;
 }
@@ -103,20 +85,21 @@ h2{
   width: 100%;
 }
 
-.information{
-  padding: 0;
-}
 
 .about-row{
-  padding: 5%;
+  padding: 5px;
   background-color: #6c757d17;
   text-align:left;
+  margin-left: -35px!important;
 }
 
 .aboutnumbers{
   padding: 4%;
 }
 
+.font{
+  font-size: 15px;
+}
 
 .flex-container {
   display: flex;
@@ -131,9 +114,6 @@ h2{
   flex-grow: 2; padding-top: 5%;
 }
 
-#OurProjects{
-margin:0% 10% 10%;
-}
 
 
 .project{
@@ -199,7 +179,7 @@ margin:0% 10% 10%;
  text-decoration: none;
  display: inline-block;
  font-size: 16px;
- padding: 10px 38px;
+ padding: 10px 50px;
 }
 
 .download-button{
@@ -212,3 +192,54 @@ margin:0% 10% 10%;
  font-size: 16px;
  padding: 10px 24px;
 }
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  .about-row{
+    margin-left: 3px!important;
+  }
+  .aboutnumbers{
+    padding-left: 10px;
+  }
+  .font{
+      font-size: 25px!important;
+    }
+    .project-text{
+      padding-left: 35px!important;
+    }
+    .img{
+      width: 310px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+  .title-row h1{
+    font-size: 17px;
+  }
+  .building-img{
+    height: 250px;
+  }
+  .about-row{
+    margin-left: 1px!important;
+
+  }
+  .container{
+    margin: 0px!important;
+  }
+  .project-row{
+    margin-left: 2px;
+}
+  .font{
+      font-size: 10px!important;
+    }
+    .img{
+      width: 260px;
+    }
+    .project-text{
+      padding-left: 20px!important;
+    }
+  }
